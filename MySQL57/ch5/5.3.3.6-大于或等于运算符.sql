@@ -2,4 +2,4 @@
 
 -- 不能用于判断 空值 NULL
 
-select 2>=1, 4>=4 , null>=3 , null >= null;
+select 2>=1, 4>=4 ,3>=4, null>=3 , null >= null;
