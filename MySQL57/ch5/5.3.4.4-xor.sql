@@ -11,3 +11,13 @@ select
 1 xor 1 xor 1,
 null xor null
 ;
+
+-- 等价 a xor b
+select 1 xor 0;
+select 1 xor 1;
+-- a and (not b)
+select (1 and (not 0));
+select (1 and (not 1));
+-- not a and b
+select not (1 and 0);
+select not (1 and 1);
